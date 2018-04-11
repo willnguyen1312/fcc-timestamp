@@ -1,20 +1,14 @@
 {
-  "name": "koalerplate",
-  "homepage": "https://github.com/dbalas/koalerplate.git",
-  "description": "A simple Koa 2 boilerplate for API's using ES6.",
-  "bugs": {
-    "url": "https://github.com/dbalas/koalerplate/issues/new"
-  },
+  "name": "fcc_timestamp",
+  "description": "My solution to Freecodecamp timestamp challenge",
   "keywords": [
     "koa",
     "koa2",
     "boilerplate",
-    "koalerplate",
     "api",
     "es6"
   ],
-  "repository": "git@github.com:dbalas/koalerplate.git",
-  "author": "Daniel Balastegui",
+  "author": "Nam Nguyen",
   "license": "MIT",
   "version": "1.1.0",
   "main": "index.js",
@@ -23,17 +17,21 @@
     "start": "cross-env NODE_ENVIRONMENT=production node index"
   },
   "dependencies": {
-    "@koa/cors": "2",
-    "cross-env": "^5.1.3",
-    "dotenv": "^5.0.0",
+    "@koa/cors": "2.2.1",
+    "cross-env": "^5.1.4",
+    "dotenv": "^5.0.1",
+    "invariant": "^2.2.4",
+    "joi": "^13.1.2",
     "koa": "^2.5.0",
     "koa-bodyparser": "^4.2.0",
-    "koa-helmet": "^3.3.0",
-    "koa-logger": "^3.1.0",
+    "koa-helmet": "^4.0.0",
+    "koa-logger": "^3.2.0",
     "koa-respond": "^1.0.1",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.5",
+    "moment": "^2.22.0"
   },
   "devDependencies": {
-    "nodemon": "^1.17.1"
+    "nodemon": "^1.17.3"
   }
 }
